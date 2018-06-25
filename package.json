@@ -1,6 +1,6 @@
 {
   "name": "react-device-motion",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A react wrapper for device motion events.",
   "keywords": [
     "device",
