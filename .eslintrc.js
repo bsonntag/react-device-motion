@@ -2,18 +2,14 @@ module.exports = {
   env: {
     browser: 1,
   },
-  extends: 'seegno',
+  extends: '@bsonntag',
   rules: {
-    'comma-dangle': ['error', 'always-multiline'],
     'id-length': [
       'error',
       {
-        exceptions: ['_', 'e', 'i', 'x', 'y', 'z'],
+        min: 2,
+        exceptions: ['x', 'y', 'z'],
       },
     ],
-    'no-confusing-arrow': 'off',
-  },
-  settings: {
-    react: { version: 'detect' },
   },
 };

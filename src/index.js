@@ -2,7 +2,6 @@ import { Component } from 'react';
 import PropTypes from 'prop-types';
 
 export default class DeviceMotion extends Component {
-
   static propTypes = {
     children: PropTypes.func,
   };
@@ -30,10 +29,20 @@ export default class DeviceMotion extends Component {
     },
   };
 
-  handleDeviceMotion = event => {
-    const { acceleration, accelerationIncludingGravity, interval, rotationRate } = event;
+  handleDeviceMotion = (event) => {
+    const {
+      acceleration,
+      accelerationIncludingGravity,
+      interval,
+      rotationRate,
+    } = event;
 
-    this.setState({ acceleration, accelerationIncludingGravity, interval, rotationRate });
+    this.setState({
+      acceleration,
+      accelerationIncludingGravity,
+      interval,
+      rotationRate,
+    });
   };
 
   componentDidMount() {
@@ -47,5 +56,4 @@ export default class DeviceMotion extends Component {
   render() {
     return this.props.children(this.state);
   }
-
 }

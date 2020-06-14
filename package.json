@@ -25,8 +25,11 @@
     "@babel/core": "^7.10.2",
     "@babel/preset-env": "^7.10.2",
     "@babel/preset-react": "^7.10.1",
-    "eslint": "^5.16.0",
-    "eslint-config-seegno": "^13.0.0",
+    "@bsonntag/eslint-config": "^0.6.0",
+    "eslint": "^7.2.0",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.10",
+    "prettier": "^2.0.5",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   },
