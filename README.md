@@ -32,7 +32,7 @@ const App = () => (
     }) => (
       <div>
         {`Acceleration: ${JSON.stringify(acceleration)}`}
-        {`Acceleration including gravity: ${JSON.stringify(accelerationIncludingGravity)
+        {`Acceleration including gravity: ${JSON.stringify(accelerationIncludingGravity)}`}
         {`Interval: ${interval}`}
         {`Rotation rate: ${JSON:stringify(rotationRate)}`}
       </div>
